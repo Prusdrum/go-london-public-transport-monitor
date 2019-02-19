@@ -2,7 +2,7 @@ install:
 	dep ensure
 
 build:
-	go build
+	go build -o main
 
 start:
-	./tubes-training
+	./main
