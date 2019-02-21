@@ -31,6 +31,6 @@ make start
 
 ### or using Docker
 ```
-docker build -t go-tubes
+docker build -t go-tubes .
 docker run go-tubes
 ```
