@@ -24,6 +24,7 @@ func checkDisruptions() {
 }
 
 func main() {
+	fmt.Println("starting tubes monitor")
 	err := godotenv.Load()
 	if err != nil {
 		log.Fatal("Error loading .env file")

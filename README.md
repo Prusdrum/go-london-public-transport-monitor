@@ -28,3 +28,9 @@ make build
 ```
 make start
 ```
+
+### or using Docker
+```
+docker build -t go-tubes
+docker run go-tubes
+```
